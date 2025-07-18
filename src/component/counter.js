@@ -16,7 +16,7 @@ function Counter() {
       <h2>Count: {count}</h2>
       <button className='btn' onClick={handleIncrement}>+</button>
       <button className='btn' onClick={handleDecrement} disabled={count === 0}>-</button>
-      <button className='btn' onClick={handleReset}>Reset</button>
+      <button className='btn' onClick={handleReset}>ReSet</button>
     </div>
   );
 }
