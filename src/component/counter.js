@@ -7,16 +7,16 @@ function Counter() {
   const handleDecrement = () => {
     if (count > 0) {
       setCount(count - 1);
-    }
+    } 
   };
   const handleReset = () => setCount(0);
 
   return (
     <div style={{ textAlign: 'center', marginTop: '50px' }}>
       <h2>Count: {count}</h2>
-      <button onClick={handleIncrement}>+</button>
-      <button onClick={handleDecrement} disabled={count === 0}>-</button>
-      <button onClick={handleReset}>Reset</button>
+      <button className='btn' onClick={handleIncrement}>+</button>
+      <button className='btn' onClick={handleDecrement} disabled={count === 0}>-</button>
+      <button className='btn' onClick={handleReset}>Reset</button>
     </div>
   );
 }
