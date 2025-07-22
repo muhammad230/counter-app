@@ -1,10 +1,10 @@
 *{
-  background-color: lightblue;
+  background-color: rgb(58, 101, 116);
 }
 .btn{
   font-size: 15px;
   margin: 10px;
-  color: brown;
+  color: rgb(104, 29, 29);
   border-radius: 1px solid #ffff;
 }
 h2{
